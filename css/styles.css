@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.box1{
+    background-color: gray;
+    color: white;
+
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding-top: 20px;
+}
+
+.box1 h1{
+    font-family: Arial;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: 0.2em;
+    word-spacing: 1em;    
+}
+
+.categories h2{
+    text-align: center;    
+}
+
+.categories{
+    border:1px blue solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.categories ul{
+    padding: 0px;
+    list-style: square;
+    margin-left: 20px;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px;
+    list-style-image: url(../images/check.png);
+}
+
+.form1{
+    padding: 20px;
+
+}
+.form1 .form-group{
+    padding-bottom: 15px;
+
+}
+.form1 label{
+    display: black;
+}
+
+.form1 input[type="text"], .form1 textarea {
+    padding: 8px;
+    width: 100%;
+    
+}
+
+.form1 input[type="submit"]{
+    background-color: #333;
+    color: white;
+    padding:10px 15px;
+    border: none;
+}
